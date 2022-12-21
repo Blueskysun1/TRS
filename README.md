@@ -1,7 +1,7 @@
 # Introduction
 TRS is a efficient lattice-based traceable ring signature scheme. 
 
-We give this code to test the computational overhead of TRS.
+We give this code to test the computational overhead of TRS for the security parameter λ = 128.
 ## User Guide
 Main_TRS is a main function, which calls the other five algorithms to realize the simulation experiment of the proposed scheme. Therefore, after downloading them, please run Main_TRS directly in MATLAB. Considering stability, for our core algorithm, we test 1000 times in the code. For more information, please see the comments in the various parts of the code.
 ### 1. Concrete steps
