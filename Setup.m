@@ -7,7 +7,7 @@ q = 67108753;
 
 % Randomly sample a matrix A=[A0||In], where A0 denotes A' in the article,
 % since A' cannot be defined as a legal variable in Matlab.
-% Pick A0, we store the 7×8-dimensional polynomial vector in a 7*8*128 matrix.
+% Pick A0, we store the 7×8-dimensional polynomial vector in a n*(m-n)d matrix.
 A0 = randi([-(q-1)/2,(q-1)/2], n, d*(m-n));
 I1 = zeros(1,d);
 I1(1,d) = 1;
